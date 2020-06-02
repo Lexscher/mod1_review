@@ -37,34 +37,34 @@
 ***
 
 ## customer
-- Customer.new() should create a new customer with a name 
+<!-- - Customer.new() should create a new customer with a name 
 
 - Customer#name should work
 
-- Customer.all should return all customer instances
+- Customer.all should return all customer instances -->
 
-- Customer#accounts should return all accounts that belong to the customer
+<!-- - Customer#accounts should return all accounts that belong to the customer -->
 
-- Customer#banks should return all banks that are associated with the customer
+<!-- - Customer#banks should return all banks that are associated with the customer -->
 
-- Customer#balance should return total balance from all the accounts from all the bank that are associated with the customer
+<!-- - Customer#balance should return total balance from all the accounts from all the bank that are associated with the customer -->
 
 ## bank
-- Bank.new() should create a new bank with a name
+<!-- - Bank.new() should create a new bank with a name
 
 - Bank#name should work
 
-- Bank.all should return all bank instances
+- Bank.all should return all bank instances -->
 
-- Bank#accounts should return all accounts that belong to the bank
+<!-- - Bank#accounts should return all accounts that belong to the bank -->
+<!-- 
+- Bank#customers should return all of the customers that are associated with the bank -->
 
-- Bank#customers should return all of the customers that are associated with the bank
-
-- Bank#open_account takes customer instance as an argument and create a new account with 100 as an initial balance
+<!-- - Bank#open_account takes customer instance as an argument and create a new account with 100 as an initial balance -->
 
 ## account
-- Account.new() should create a new account that takes a customer instance, a bank instance, and a balance
+<!-- - Account.new() should create a new account that takes a customer instance, a bank instance, and a balance
 
 - Account#customer, Account#bank and Account#balance should work
 
-- Account.all should return all account instances
+- Account.all should return all account instances -->
